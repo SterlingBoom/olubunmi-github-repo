@@ -1,19 +1,16 @@
+
 <template>
-  <div class="container">
+  <div class="app">
       <Navigation />
       <router-view />
     </div>
 
 </template>
 
-<script>
+<script setup>
 import Navigation from './components/Navigation.vue'
-export default {
-  name: 'App',
-  components: {
-    Navigation,
-  },
-}
+// import RepoDetails from './components/RepoDetails.vue'
+
 </script>
 
 <style>
@@ -26,15 +23,17 @@ export default {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  text-align: center;
 }
 .app {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   position: relative;
-  background-color: #f1f1f1;
+  /* background-color: rgba(245, 240, 235, 0.892); */
 }
 .container {
   padding: 0 20px;
   max-width: 1140px;
   margin: 0 auto;
 }
+
 </style>
