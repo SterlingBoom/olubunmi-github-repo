@@ -83,16 +83,16 @@ onMounted(fetchRepos)
 <style>
 /* eslint-disable */ 
 .container {
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  height: 110vh;
+  /* height: 110vh; */
   max-width: 100%;
 }
 .repos-list {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		color: #ccc;
+		color:red;
 		max-width: 100%;
 		/* width: 800px; */
 		/* height:  800px; */

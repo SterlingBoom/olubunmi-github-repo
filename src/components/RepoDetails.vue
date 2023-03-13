@@ -115,8 +115,6 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: black; */
-  height: 110vh;
   max-width: 100%;
   
 }
@@ -125,12 +123,7 @@ onMounted(() => {
   flex-direction: column;
   justify-content: center;
   color: #ccc;
-  /* max-width: 100%; */
-  /* width: 800px; */
-  /* height:  800px; */
-  /* align-items: center; */
   width: 70%;
-  /* height: 0%; */
   background-color: #023f47;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(120, 70, 70, 0.1);
@@ -138,6 +131,7 @@ onMounted(() => {
   margin: 20px;
   
 }
+
 .detail-title{
   font-size: 1.5rem;
   font-weight: 600;

@@ -28,6 +28,7 @@ import Navigation from './components/Navigation.vue'
 .app {
   /* min-height: 100vh; */
   position: relative;
+  height: auto;
   /* background-color: rgba(245, 240, 235, 0.892); */
 }
 .container {

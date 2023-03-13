@@ -27,7 +27,7 @@
       <p>
         <small>
           last updated on
-          {{ new Date(repo.updated_at).toLocaleDateString() }}
+          {{ new Date(repo.updated_at).toLocaleDateString()}}
         </small>
       </p>
     </div>
@@ -53,9 +53,7 @@ defineProps(['repo'])
   padding: 0 20px;
   max-width: 1140px;
   margin: 0 auto;
-  padding-top:100px;
-display: flex;
-  flex-wrap: wrap;
+
 }
 .link-repo{
   text-decoration: none;
@@ -63,6 +61,10 @@ display: flex;
   width: 100%;
   max-width: 100%;
 }
+.link-repo:hover{
+  text-decoration: none;
+  color: #181616;
+} 
 .repo-card{
   width: 100%;
   max-width: 100%;
