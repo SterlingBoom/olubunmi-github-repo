@@ -17,7 +17,7 @@
       <img src= "../assets/images/blue-pics.png" class= "img-size" alt="logo">
     </div>
     <div>
-  <button><router-link class="link" to="/repo">Go to Repo</router-link></button>
+  <button><router-link class="repo-link" to="/repo">Go to Repo</router-link></button>
 </div>
     </main>
     
@@ -198,6 +198,13 @@ margin-top: 40px;
 
 
 }
+.repo-link{
+  text-decoration: none;
+color: #fff;
+}
+.repo-link:hover{
+  text-decoration: none;
+}
 button{
   display: block; 
 /* padding-top: 0.5rem; */
@@ -230,11 +237,10 @@ text-align: center;
     height: 100vh;
   }
   button{
-    margin-top: 220px;
+    margin-top: 200px;
+  
   }
-  .img-style{
-    object-fit: contain;
-  }
+  
   .welcome-style{
     display: none;
   }
@@ -246,10 +252,25 @@ display: none;
   }
   .container{
     height: 100vh;
+
   }
   .blinking-cursor{
     display: none;
   }
+  .img-size{
+  width: 450px;
+  height: 450px;
+  /* object-fit: cover;  */
+position: absolute; 
+padding-left: 120px;
+/* right: -3rem;  */
+width: 27.25rem;
+top: 8%;
+justify-content: center;
+margin-top: 40px;
+
+
+}
 }
 /* @media (min-width: 768px) { 
   .img-style{
