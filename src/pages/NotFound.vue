@@ -1,6 +1,7 @@
 <template>
 
   <div class="container">
+    <h1 class="error-header">ERROR 404</h1>
     
 
    <h1 class="error">Oops, it looks like the page you're looking for doesn't exist!!</h1>
@@ -30,6 +31,10 @@ export default {
   font-weight: 600;
   text-align: center;
   margin-top: 50px;
+}
+.error-header{
+  font-size: 3rem;
+  color: #e60e0e;
 }
 .main-color{
   background-color:rgb(218, 165, 165);

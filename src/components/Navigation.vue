@@ -168,9 +168,10 @@ text-decoration: none;
     width: 100%;
     max-width: 250px;
     height: 100%;
-    background-color: #fff;
+    background-color: #020202;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
     
   }
   .dropdown-nav li{
@@ -188,9 +189,11 @@ text-decoration: none;
 
   .dropdown-nav li{
     margin-left: 0;
+    text-decoration: none;  
   }
   .dropdown-nav link{
     color: #000;
+    
   }
   
 @media(min-width: 1140px){

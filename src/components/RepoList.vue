@@ -33,6 +33,7 @@
     </div>
     
         </div> 
+        
   
       </router-link>
       </div>
@@ -65,6 +66,14 @@ defineProps(['repo'])
   text-decoration: none;
   color: #181616;
 } 
+.repo-list-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
 .repo-card{
   width: 100%;
   max-width: 100%;
@@ -72,7 +81,7 @@ defineProps(['repo'])
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(120, 70, 70, 0.1);
-  background-color: #787068;
+  background-color: #dcb186;
 }
 .repo-list-item{
   display: flex;
@@ -94,6 +103,7 @@ defineProps(['repo'])
   width: 100%;
   margin-top: 20px;
 }
+
 
 </style>
 

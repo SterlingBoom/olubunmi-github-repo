@@ -215,7 +215,7 @@ text-align: center;
   width: 13rem;
   position: fixed;
   left: 5rem;
-  border-radius: 5%;
+  border-radius: 3%;
   /* margin-top: 70px; */
 }
 .typed-text{
@@ -236,5 +236,38 @@ text-decoration: none;
   text-decoration: none;
   border-bottom: none;
 }
+@media screen and (max-width: 768px) {
+  .container{
+    height: 100vh;
+  }
+  button{
+    margin-top: 220px;
+  }
+  .img-style{
+    object-fit: contain;
+  }
+  .welcome-style{
+    display: none;
+  }
+  .typed-text{
+display: none;
+  }
+  .flex{
+    width: 100%;
+  }
+  .container{
+    height: 100vh;
+  }
+  .blinking-cursor{
+    display: none;
+  }
+}
+/* @media (min-width: 768px) { 
+  .img-style{
+  object-fit: contain; 
+top: 16%;
+  }
+  
+ } */
 
 </style>

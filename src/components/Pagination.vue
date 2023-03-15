@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="repos__pagination">
+    <div class="repos-pagination">
       <!-- pagination with prev and next buttons -->
       <ul>
         <li>
@@ -73,4 +73,15 @@ button:hover {
   color: #00d9ff;
   /* background-color: #ccc; */
 }
+@media screen and (max-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: .5px; */
+  }
+  
+} 
 </style>
