@@ -21,10 +21,10 @@
     </div>
     <transition name="mobile-nav">
       <ul v-show="mobileNav" class="dropdown-nav">
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/repo">Repo</router-link></li>
-        <li><router-link to="/notfound">404</router-link></li>
+        <li><router-link to="/" class="mob-link">Home</router-link></li>
+        <li><router-link to="/about" class="mob-link">About</router-link></li>
+        <li><router-link to="/repo" class="mob-link">Repo</router-link></li>
+        <li><router-link to="/notfound" class="mob-link">404</router-link></li>
       </ul>
     </transition>
   </nav>
@@ -168,33 +168,25 @@ text-decoration: none;
     width: 100%;
     max-width: 250px;
     height: 100%;
-    background-color: #020202;
+    background-color: #d2c0c0;
     display: flex;
     flex-direction: column;
-    text-decoration: none;
-    
   }
-  .dropdown-nav li{
-    margin-left: 16px;
-  }
-/*   
-  .mobile-nav .link:after{
-    
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
-  }
-  .mobile-nav-enter-to{
-    transform:  translateX(0);
-  } */
-
-  .dropdown-nav li{
-    margin-left: 0;
-    text-decoration: none;  
-  }
-  .dropdown-nav link{
+  .mob-link{
+    font-size: 24px;
+    padding: 16px;
     color: #000;
-    
+    text-decoration: none;
+    transition: .5s ease all;
+    border-bottom: 1px solid transparent;
+    /* border-bottom: 1px solid #000; */
   }
+  .mob-link:hover{
+    color: #00afea;
+    border-color: #00afea;
+  }
+  
+  
   
 @media(min-width: 1140px){
   nav{

@@ -92,7 +92,7 @@ onMounted(fetchRepos)
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		color:red;
+		color:rgb(210, 129, 129);
 		max-width: 100%;
 		/* width: 800px; */
 		/* height:  800px; */

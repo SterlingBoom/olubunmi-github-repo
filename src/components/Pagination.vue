@@ -70,7 +70,7 @@ button:hover {
   border-radius: 5px;
   border: none;
   margin: 1px;
-  color: #00d9ff;
+  /* color: #00d9ff; */
   /* background-color: #ccc; */
 }
 @media screen and (max-width: 768px) {

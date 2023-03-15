@@ -7,7 +7,7 @@
         <div class="repos-list-item">
           <div class="repo-list-header">
           <h2>
-            {{ repo.name }}&nbsp;&nbsp; &nbsp;&nbsp; <small> ({{ repo.visibility }})</small>
+            {{ repo.name }}&nbsp;&nbsp; <small> ({{ repo.visibility }})</small>
           </h2>
           <p>
             <span>
@@ -59,8 +59,8 @@ defineProps(['repo'])
 .link-repo{
   text-decoration: none;
   color: #181616;
-  width: 100%;
-  max-width: 100%;
+  /* width: 100%; */
+  /* max-width: 100%; */
 }
 .link-repo:hover{
   text-decoration: none;
@@ -71,29 +71,17 @@ defineProps(['repo'])
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
   margin-bottom: 20px;
 }
 .repo-card{
-  width: 100%;
-  max-width: 100%;
+  /* width: 100%; */
+  /* max-width: 100%; */
   margin: 30px;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(120, 70, 70, 0.1);
   background-color: #dcb186;
-}
-.repo-list-item{
-  display: flex;
-  /* flex-wrap:wrap; */
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /* background-color: #787068; */
-  /* border-radius: 10px; */
-  /* box-shadow: 0 0 10px rgba(120, 70, 70, 0.1); */
-  /* padding: 20px; */
-  /* margin: 20px; */
 }
 .details{
   display: flex;

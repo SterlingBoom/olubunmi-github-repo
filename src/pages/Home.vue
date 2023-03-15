@@ -225,17 +225,6 @@ text-align: center;
   text-align: left;
   color: #01101e;
 }
-.link{
-  text-decoration: none;
-  font-weight: 500;
-color: #f2e2e2;
-list-style: none;
-text-decoration: none;
-}
-.link:hover{
-  text-decoration: none;
-  border-bottom: none;
-}
 @media screen and (max-width: 768px) {
   .container{
     height: 100vh;
